@@ -12,6 +12,7 @@ public:
 	void		returnData(int& x, int& y);
 
 	int		calculateSize(int x, int y);
+	bool		createPlayground(int x, int y);
 
 private:
 	int		_iCoordX;

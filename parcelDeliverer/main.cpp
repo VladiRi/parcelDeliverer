@@ -12,10 +12,13 @@ int main()
 					y = 20;
 	CPlayground		NewParcel;
 
-	NewParcel.inputData(x, y);
+	NewParcel.createPlayground(x, y);
+
+	/*NewParcel.inputData(x, y);
 	NewParcel.returnData(x, y);
 
 	cout << "Feldgroesse: " << NewParcel.calculateSize(x, y);
+	*/
 
 	_getch();
 	return 0;
