@@ -5,6 +5,7 @@ class CParcel
 {
 public:
 	CParcel();
+	CParcel(int x, int y, int z, int w);
 	~CParcel();
 
 	void		inputData(int x, int y, int z, int w);
